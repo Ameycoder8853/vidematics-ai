@@ -1,6 +1,6 @@
 // app/privacy-policy/page.jsx
 import React from 'react';
-import Header from '../dashboard/_components/Header';
+import Header from '../_components/Header';
 
 const PrivacyPolicy = () => {
   return (
