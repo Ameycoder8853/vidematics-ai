@@ -13,7 +13,7 @@ const Header = () => {
       {/* Left Section: Logo and Heading */}
       <div className="flex items-center gap-6">
         <Link href="/" aria-label="Home"> {/* Clickable Logo */}
-          <Image src={"/logo.jpeg"} width={40} height={40} alt="Logo" />
+          <Image src={"/logo.png"} width={40} height={40} alt="Logo" />
         </Link>
         <Link href="/" aria-label="Home"> {/* Clickable Heading */}
           <h2 className="font-bold text-2xl text-gray-900 dark:text-gray-100 cursor-pointer">
@@ -22,7 +22,7 @@ const Header = () => {
         </Link>
         <div className="flex gap-2">
           <Image src={'/rupee.png'} width={20} height={20}/>
-          <h2 className="text-gray-900 dark:text-gray-100">credits:{userDetail?.credits}</h2>
+          <h2 className="text-gray-900 dark:text-gray-100">{userDetail?.credits}</h2>
         </div>
       </div>
 
