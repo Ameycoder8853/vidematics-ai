@@ -21,7 +21,6 @@ const Dashboard = () => {
         const result = await db.select().from(VideoData)
             .where(eq(VideoData?.createdBy, user?.primaryEmailAddress?.emailAddress));
 
-        console.log(result);
         setVideoList(result);
     };
 
@@ -50,3 +49,4 @@ const Dashboard = () => {
 }
 
 export default Dashboard;
+    
