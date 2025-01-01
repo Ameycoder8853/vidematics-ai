@@ -134,7 +134,6 @@ const CreateNew = () => {
           createdBy: user?.primaryEmailAddress?.emailAddress,
         }).returning({ id: VideoData?.id })
           await UpdateUserCredits();
-      console.log("Saved to DB:", result);
       return result;
     } catch (error) {
       console.error("Error saving video data:", error);
