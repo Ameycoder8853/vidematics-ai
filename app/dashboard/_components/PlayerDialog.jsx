@@ -58,7 +58,6 @@ export const PlayerDialog = ({ playVideo, videoId }) => {
                                 inputProps={{
                                     ...videoData,
                                     setDurationInFrame: (frameValue) => {
-                                        console.log("Setting duration in frames:", frameValue);
                                         setDurationInFrame(frameValue);
                                     },
                                 }}
